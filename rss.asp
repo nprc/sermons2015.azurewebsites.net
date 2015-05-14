@@ -58,6 +58,7 @@ For Each file In files
 		Response.Write(return_RFC822_Date(file.DateLastModified, "+1200"))
 		Response.Write("</pubDate>")
 		Response.Write("<link>")
+		Response.Write("https://sermons.azurewebsites.net/")
 		Response.Write(file.Name)
 		Response.Write("</link>")
 		Response.Write("</item>")
