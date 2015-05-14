@@ -46,19 +46,19 @@ Set folder = fs.GetFolder(Request.ServerVariables("APPL_PHYSICAL_PATH"))
 Set files = folder.Files
 
 ' Display each file one by one
-For Each filename In files
+For Each file In files
 	' If we have an MP3 file, then display an item for it
-	If LCase(Right(filename, 4)) = ".mp3" Then
+	If LCase(Right(file.Name, 4)) = ".mp3" Then
 		' The RSS item
 		Response.Write("<item>")
 		Response.Write("<title>")
-		Response.Write(Left(filename.Name, Len(filename.Name) - 4))
+		Response.Write(Left(file.Name, Len(file.Name) - 4))
 		Response.Write("</title>")
 		Response.Write("<pubDate>")
 		Response.Write(return_RFC822_Date(file.DateLastModified, "+1200"))
 		Response.Write("</pubDate>")
 		Response.Write("<link>")
-		Response.Write(filename.Name)
+		Response.Write(file.Name)
 		Response.Write("</link>")
 		Response.Write("</item>")
 	End If
