@@ -4,9 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>New Plymouth Reformed Church Sermon Archive</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="https://sermons.azurewebsites.net/favicon.ico" />
+<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="https://sermons.azurewebsites.net/favicon.ico">
+<link rel="alternate" href="https://sermons.azurewebsites.net/RSS.asp" type="application/rss+xml" title="New Plymouth Reformed Church Sermons" id="rss">
 <meta name="description" content="New Plymouth Reformed Church MP3 Sermons">
-<meta name="keywords" content="MP3 Sermons From The New Plymouth Christian Protestant Reformed Church">
+<meta name="keywords" content="MP3 Sermons New Plymouth Christian Protestant Reformed Church">
 <meta name="author" content="Peter Chapman">
 </head>
 <body>
@@ -56,7 +57,12 @@ For Each filename In files
 		Response.Write(" <a href=""" + filename.Name + """>" + filename.Name + "</a><br>")
 	End If
 Next
- %>
+
+' Clean up
+Set files = Nothing
+Set folder = Nothing
+Set fs = Nothing
+%>
 <!--You Can Modify All Of The Code Below-->
 <p align="right">&copy; 2015 <a href="http://nprc.nz/">New Plymouth Reformed Church</a></p>
 </body>
