@@ -1,6 +1,6 @@
 <script language=VBScript runat=Server>
 Sub Application_OnStart
 	Application("ICONS_VIRTUAL_PATH") = "/icons" ' Manually set the virtual path here if you don't have a global variable
-	Application("ICONS_PATH") = Request.ServerVariables("APPL_PHYSICAL_PATH") & "icons" ' Manually set the path here if you don't have a global variable
+	Application("ICONS_PATH") = "D:\home\site\wwwroot\icons" ' Manually set the path here if you don't have a global variable
 End Sub
 </script>
