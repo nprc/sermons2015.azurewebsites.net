@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>New Plymouth Reformed Church Sermon Archive</title>
+<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="http://nprc.azurewebsites.net/favicon.ico" />
 <meta name="description" content="New Plymouth Reformed Church MP3 Sermons">
 <meta name="keywords" content="MP3 Sermons From The New Plymouth Christian Protestant Reformed Church">
 <meta name="author" content="Peter Chapman">
