@@ -45,7 +45,7 @@ For Each filename In files
 	filenameArray = Split(filename.Name, ".", -1, 1)
 	fileExtension = LCase(filenameArray(UBound(filenameArray)))
 	' If we have an MP3 file, then display a link to it
-	If fileExtension = "mp3" Then
+	If fileExtension = "mp3" Or fileExtension = "pdf" Then
 		' Display the icon if one exists. This If statement speeds processing.
 		If Application("ICONS_PATH") <> "" Then
 			' If we have an image for this file type show it, otherwise show the default icon if it exists
