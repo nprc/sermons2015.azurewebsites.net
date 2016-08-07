@@ -33,8 +33,8 @@ End Function
 Response.Write("<?xml version=""1.0"" encoding=""utf-8"" standalone=""yes""?>")
 Response.Write("<rss version=""2.0"">")
 Response.Write("<channel>")
-Response.Write("<title>New Plymouth Reformed Church Sermons</title>")
-Response.Write("<link>https://sermons.azurewebsites.net/</link>")
+Response.Write("<title>New Plymouth Reformed Church 2015 Sermon Archive</title>")
+Response.Write("<link>https://sermons2015.azurewebsites.net/</link>")
 
 ' Start file system access
 Set fs = CreateObject("Scripting.FileSystemObject")
@@ -58,7 +58,7 @@ For Each file In files
 		Response.Write(return_RFC822_Date(file.DateLastModified, "+1200"))
 		Response.Write("</pubDate>")
 		Response.Write("<link>")
-		Response.Write("https://sermons.azurewebsites.net/")
+		Response.Write("https://sermons2015.azurewebsites.net/")
 		Response.Write(file.Name)
 		Response.Write("</link>")
 		Response.Write("</item>")
