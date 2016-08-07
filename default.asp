@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>New Plymouth Reformed Church 2015 Sermon Archive</title>
+<title>New Plymouth Reformed Church Sermon Archive</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link type="image/vnd.microsoft.icon" rel="shortcut icon" href="https://sermons2015.azurewebsites.net/favicon.ico">
 <link rel="alternate" href="https://sermons2015.azurewebsites.net/RSS.asp" type="application/rss+xml" title="New Plymouth Reformed Church Sermons 2015 Archive" id="rss">
@@ -19,7 +19,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-61493830-2', 'auto');
 ga('send', 'pageview');
 </script>
-<h1>New Plymouth Reformed Church 2015 Sermon Archive</h1>
+<h1>New Plymouth Reformed Church Sermon Archive</h1>
+<p>
+	<a href="https://sermons2015.azurewebsites.net/">2015</a> <a href="https://sermons.azurewebsites.net/">2016</a>
+</p>
 <!--Do Not Modify The Following Code, Only Application("ICONS_PATH"), and Application("ICONS_VIRTUAL_PATH") If Needed-->
 <%
 ' Set the path to where the file icons are kept if it is empty
